@@ -1,0 +1,55 @@
+h1{
+    color:white;font-family: 'Srisakdi', cursive;text-align: center;
+    font-size: 42px;
+    
+}
+header{
+    background:gray;
+    
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+}
+.child1{
+
+    background:rgb(206, 190, 190);
+    width: 400px;
+   
+}
+.child2{
+    
+    background: white;
+    width:100%;
+    height:300px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-family: 'Srisakdi', cursive;text-align:
+}
+.child2{
+    padding-left: 10px;
+    padding-top: 30px;
+    font-family: 'Srisakdi', cursive;text-align:
+}   
+#paragraph2{
+    margin-top: 25px;
+}
+footer{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    font-family: 'Srisakdi', cursive;text-align:
+}
+a{
+    margin-top: 20px;
+}

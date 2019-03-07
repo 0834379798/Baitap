@@ -1,0 +1,152 @@
+header{
+    background:#0000AA;
+}
+
+.parents{
+    display: flex;
+    flex-direction: row;
+    width:1000px;
+    font-family: 'Srisakdi', cursive;
+   
+}
+.parent1content{
+    width:1000px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.parentcontent{
+    display:flex;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    width:400px;
+    padding:10px;
+   
+}
+.right_child{
+    display: flex;
+    flex-direction: column;
+    padding:4px;
+    
+}
+.left{
+    display:flex;
+    justify-content: center;
+    width:600px;
+    padding:20px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.picture{
+    display: flex;
+    flex-direction: row;
+    width:500px;
+}
+.picturechild{
+    height:80px;
+    flex:1;
+    padding:10px;
+}
+.picturechild>img{
+    width:100%;
+    height:120px;
+}
+.leftcontent{
+    width:600px;
+    font-family: 'Srisakdi', cursive;
+    font-size:20px;
+
+}
+.rightcontent{
+    width:400px;
+    font-family: 'Srisakdi', cursive;
+    
+}
+.name{
+    display: flex;
+    flex-direction: row;
+}
+.hoten{
+    padding: 10px;
+}
+.hoten>input{
+    width:170px;
+    border:1px solid bisque;
+    border-radius: 10px;
+}
+.sdt{
+    padding:10px;
+    
+}
+.sdt>input{
+    width:360px;
+    border:2px solid bisque;
+    border-radius: 20px;
+}
+.matkhau{
+    padding: 10px;
+    
+}
+.matkhau>input{
+    width:360px;
+    border:2px solid bisque;
+    border-radius: 20px;
+}
+.ngaysinh{
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+}
+.ngaythangnam{
+    display: flex;
+    flex-direction: row;
+    padding-top:10px;
+}
+.days{
+    display: flex;
+    flex-direction: row;
+}
+.sign_in{
+    padding-top:20px;
+    
+
+}
+.sign_in>input{
+    border:2px solid bisque;
+    border-radius: 20px;
+}
+.right_child>label
+{
+    color: whitesmoke;
+}
+.right_child>a{
+    color:rgb(109, 109, 196);
+}
+.noidung{
+    padding: 40px;
+    display: flex;
+}
+.right_child>input{
+    border:2px solid bisque;
+    border-radius: 20px;
+}
+.dang_ky>input{
+    border:2px solid bisque;
+    border-radius: 20px;
+    color:whitesmoke;
+    height:50px;
+    width:200px;
+    background: rgb(47, 151, 47);
+    font-weight: bold;
+    font-size: 22px;
+}
+.confirm>p{
+    font-size:10px;
+    color:rgb(158, 142, 142);
+}
+.noidung>a{
+    font-size:10px;
+}

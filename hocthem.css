@@ -1,0 +1,54 @@
+header{
+font-size: white;
+font-family: 'Srisakdi', cursive;
+background: bisque;
+height:100px;
+display:Flex;
+justify-content: center;
+align-items: :center;
+margin:auto;
+width:1250px;
+}
+
+.parents ul li{
+    float: left;
+    list-style-type: none;
+    width: 241px;
+    text-align: center;
+    border:1px solid #ff99ff
+   
+}
+.left
+{  
+    padding-top:2px;
+    float:left;
+    width:1000px;
+    border: 1px solid #000000;
+    
+}
+#right
+{
+    padding-top:1px;
+    float:left;
+    width:178px;
+    border: 1px solid #000000;
+    text-align: top;
+}
+#hinhanh
+{
+    float:left;
+    padding:2px;
+    border:1px solid #cccccc;
+    margin-right: 2px;
+}
+#h3
+{
+    border:1px ;
+}
+
+#foot{
+    display:Flex;
+    justify-content: center;
+    align-items: :center;
+    background: #ee11ee;
+}
